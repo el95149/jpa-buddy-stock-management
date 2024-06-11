@@ -15,6 +15,6 @@ public class TestcontainersConfiguration {
     }
 
     public static void main(String[] args) {
-        SpringApplication.from(TestcontainersConfiguration::main).with(TestcontainersConfiguration.class).run(args);
+        SpringApplication.from(StockManagementApplication::main).with(TestcontainersConfiguration.class).run(args);
     }
 }
